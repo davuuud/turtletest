@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-var expressWs = require('express-ws')(app);
+const expressWs = require('express-ws')(app);
 const port = 8080;
 
 app.get('/', (req, res) => {
